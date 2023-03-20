@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Mackenzie's Digital CV </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+
+        <style>
+        .grid{border-style: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            column-gap: 10px;} 
+        .div1 {border-style: dotted;
+            border-color: plum;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-family: 'Lato', sans-serif;
+            background-color: bisque;}
+        .div2 {border-style: dotted;
+            border-color: plum;
+            padding: 20px;
+            font-family: 'Lato', sans-serif;
+            background-color: bisque;
+            display: flex;
+            justify-content:center;
+            display: inline-block;}
+        .header{border-style: solid;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-color: plum;
+            padding-left: 20px;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;}
+        .footer{border-style: solid;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-top: 10px;
+            border-color: plum;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            background-color: bisque;}
+            
+         ul{
+                list-style-type: none;
+                border-style:solid;
+                display: inline-block;
+                padding: 0px;
+                margin-top:0px;
+                font-family: 'Lato', sans-serif;
+                border-color:plum ;}
+        li a{
+                display: block;
+                width: 100px;
+                text-align: center;
+                text-decoration: none;
+                padding: 10px;
+                color:black;
+                font-family: 'Lato', sans-serif;} 
+        li a:hover{
+                background-color: bisque}
+        li a.current{
+                background-color: plum}
+        li {float: left;}
+
+        @media screen and (max-width:768px) {
+           .image{width: 300px;
+                height:250px;
+            justify-content: center;}
+            .grid{grid-template-columns: 1fr;}}
+        @media screen and (max-width:600px) {
+            .grid{grid-template-columns: 1fr;}}
+        @media screen and (max-width:992px){}
+
+        </style>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    
+    </head>
+
+
+    <body> 
+
+        <ul>
+            <li><a href="Assignment 3.html"> About Me</a> </li>
+            <li><a href="Assignment 3 pt2.html"> Work</a></li>
+            <li><a class="current" href="Assignment 3 pt3.html"> Education </a> </li>
+            <li><a href="Assignment 3 pt4.html"> Free Time </a> </li>
+        </ul>
+
+        <div class="header">
+            <h1> Mackenzie's Digital CV</h1> 
+        </div>
+
+        <div class="grid"> 
+
+            <div class="div1"> 
+                <h2> School Life </h2>
+                <p> During my highschool career I was a student 
+                    at Josephine Dobbs Clement Early College High School in 
+                    Durham, North Carolina. Here, I earned dual degree credits from
+                    North Carolina Central University. I worked towards my goals 
+                    as an Education Major, as well as a Mass Communications Major with 
+                    a focus in Broadcast Media. I earned over sixty college credits 
+                    in my highschool career before graduating in 2022, and going on 
+                    to attend Elon University! </p> 
+                <p> I currently attend Elon University as a first-year transfer 
+                    student due to my highschool accomplishments. With my time here, I am 
+                    diligently working towards earning a Bachelors degree in Journalism from 
+                    the School of Communications. During my time at Elon, 
+                    I will also be working towards a Minor in Criminal Justice 
+                    Studies, before taking the next steps in my collegiate academic journey. 
+                    I am currently set to graduate in 2025 with my bachelors degree, and will 
+                    then be persuing a Masters Degree in Elementary Education!  </p>    
+            </div>
+
+            <div class="div2">
+                <img src="Pictures/graduation.jpg" width="400" height="350"
+                class="image">
+            </div>
+        </div>
+        <div class="footer">
+            <img src="favicon-32x32.png" width="40px">
+            <h2>Contact Info</h2>
+            <p> Email Me At:</p>
+            <p>mgiattino@elon.edu</p>
+        </div>
+
+    </body>
+</html>

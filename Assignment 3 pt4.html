@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Mackenzie's Digital CV </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+       
+       <style>
+        .grid{border-style: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            column-gap: 10px;} 
+        .div1 {border-style: dotted;
+            border-color:plum;
+            padding-bottom: 5px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 5px;
+            font-family: 'Lato', sans-serif;
+            background-color: bisque;}
+            .div2 {border-style: dotted;
+            border-color: plum;
+            padding: 20px;
+            font-family: 'Lato', sans-serif;
+            background-color: bisque;
+            display: flex;
+            justify-content:center;
+            display: inline-block;}
+        .header{border-style: solid;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-color: plum;
+            padding-left: 20px;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            background-color: bisque;}
+        .footer{border-style: solid;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-top: 10px;
+            border-color: plum;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            background-color: bisque;}
+        ul{
+                list-style-type: none;
+                border-style:solid;
+                display: inline-block;
+                padding: 0px;
+                margin-top:0px;
+                font-family: 'Lato', sans-serif;
+                border-color: plum;}
+        li a{
+                display: block;
+                width: 100px;
+                text-align: center;
+                text-decoration: none;
+                padding: 10px;
+                color:black;
+                font-family: 'Lato', sans-serif;}
+        li a:hover{
+                background-color: bisque}
+        li a.current{
+                background-color: plum}
+        li {float: left;}
+     
+        @media screen and (max-width:768px) {
+           .beach{width: 250px;} }
+        @media screen and (max-width:600px) {
+            .grid{grid-template-columns: 1fr;}
+            .beach{width:250px;}
+        }
+        @media screen and (max-width:992px){}
+
+        </style>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body> 
+        
+        <ul>
+            <li><a href="Assignment 3.html">About Me</a> </li>
+            <li><a href="Assignment 3 pt2.html"> Work</a></li>
+            <li><a href="Assignment 3 pt3.html"> Education </a> </li>
+            <li><a class="current" href="Assignment 3 pt4.html"> Free Time </a> </li>
+        </ul>
+
+        <div class="header">
+            <h1> Mackenzie's Digital CV</h1> 
+        </div>
+
+        <div class="grid"> 
+
+            <div class="div1"> 
+                <h2>What About Free Time?</h2> 
+                <p> The Majority of my free time is spent 
+                    hanging out with friends and family! If 
+                    I'm not working or completeing assignments,
+                    I spend my time thift shopping and hanging out outdoors. 
+                    During Summer, this is especially true! I spend my summer free time 
+                    at whatever body of water I'm able to. Whether that means swimming,
+                    paddle boarding, or kayaking, I soak in all the sun that I can.</p>
+                <p> I also am a big fan of helping others! Often times this comes with 
+                    picking up extra shifts at work, or babysitting. Since I'm fortunate 
+                    enough to have two jobs that I love, often times working can feel like 
+                    I'm just hanging out with a second family. 
+                </p>
+                </div>
+
+                <div class="div2">
+                    <img src="pictures/beach.jpg" width="250px" class="beach">
+                </div> 
+        </div>
+       
+        <div class="footer">
+            <img src="favicon-32x32.png" width="40px">
+            <h2>Contact Info</h2>
+            <p> Email Me At:</p>
+            <p>mgiattino@elon.edu</p>
+        </div>
+
+
+    </body>
+</html>
